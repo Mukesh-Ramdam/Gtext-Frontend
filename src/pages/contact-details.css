@@ -1,0 +1,73 @@
+Table{
+    border-collapse: collapse;
+}
+Table > Thead > Tr >Th{
+    font-size: 0.8rem !important; 
+    line-height: 1rem !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+ Tr{
+    height: 20px !important;
+}
+
+Tbody > Tr > Td{
+    font-size: 1rem;
+    font-weight: 400;
+    border-right: 1px solid black;
+    color: black;
+}
+
+.editModal{
+    height: 40vh
+}
+
+.modalHeaderEdit{
+    font-size: 1.3rem !important;
+    color: rgba(255, 166, 0, 0.988);
+}
+
+.modalHeaderView{
+    font-size: 1.3rem !important;
+    color:rgb(11, 168, 231);
+}
+
+.modalBody div{
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.modalBody div input{
+    font-size: 1rem;
+    /* margin-bottom: 0.9rem; */
+    font-weight: 400;
+    margin-left: 1rem;
+    /* width: 1fr; */
+}
+
+div >span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button{
+    font-weight: 500;
+}
+
+.updateBtnDiv{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 7%;
+    
+}
+
+.updateBtn{
+    background-color: rgb(19, 217, 19);
+    border-radius: 30px;
+    padding: 8px 16px;
+}
